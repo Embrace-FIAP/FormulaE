@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'signate';
+    src: url(../assets/fonts/signategrotesk-black.ttf);
+}
+
+:root {
+    --color-one: #3535ED;
+    --color-two: #002B6D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
