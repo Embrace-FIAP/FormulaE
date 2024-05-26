@@ -1,10 +1,7 @@
-@font-face {
-    font-family: 'signate';
-    src: url(../assets/fonts/signategrotesk-black.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto&family=Signika:wght@300..700&display=swap');
 
 *{
-    font-family: 'signate';
+    font-family: "Signika", sans-serif;
     box-sizing: border-box; 
     margin: 0px;
     padding: 0px ;
@@ -156,9 +153,7 @@ nav ul li a:active{
     box-shadow:#d6d6d6 10px 10px 10px 0px;
 }
 
-#explicando{
-    width: 1900px;
-    height: 200px;
+#explicando img{
     margin-top: -40px;
 }
 
