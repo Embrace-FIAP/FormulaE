@@ -4,57 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
     <link rel="stylesheet" href="./src/css/home.css">
     <title>Formula E</title>
 </head>
 <body>
-    <div class="flex-container">
-        
-        <div class="container">
-            <div id="background">
-                <img src="../assets/img/img_login.png" alt="Background Image" class="background-img">
-                <img src="../assets/img/img_logo_formulaE.png" alt="logo Formula E" class="logo">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./src/assets/img/img_logo_formulaE.png" alt="Logo formula-e" class="logo-image">
             </div>
-            <div class="registration">
-                <div class="form-container">
-                    <form>
-                        <div class="top-form">
-                            <p id="back"><i class="fa-solid fa-arrow-left"></i>Back</p>
-                            <div id="section-top-form">
-                                <p>Already have an account?</p>
-                                <button>Login</button>
-                            </div> 
-                        </div>
-                        <div class="content-form">
-                            <h1>Sign up as an person</h1>
-                            <p>Sign up with your Google account or use the form</p>
-                            <button id="btn-sign-up"><i class="fa-brands fa-google"></i>Sign up using Google</button>
-                            <div class="division">
-                                <div class="line"></div>
-                                <p>Or</p>
-                                <div class="line"></div>
-                            </div>
-                            <div class="row">
-                                <div class="input-group">
-                                    <input type="text" id="name" placeholder="First and last name">
-                                </div>
-                                <div class="input-group">
-                                    <input type="email" id="email" placeholder="E-mail">
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" id="password" placeholder="Password">
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" id="password" placeholder="Password Confirmation">
-                                </div>
-                                <button>Create your account F-e</button>
-                            </div>
-                        </div>
-                    </form>
+        
+            <div class="header-content">
+                <ul>
+                    <li><a href="#">Corridas</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Calendário</a></li>
+                    <li><a href="#">Ingressos</a></li>
+                <hr/>
+                </ul>
+            </div>
+                   
+            <div class="header-buttons">
+                <a href="./src/pages/login.html"><button class="login-btn">Login</button></a>
+                <button class="signup-btn">Criar Conta</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-image">
+            <img src="./src/assets/img/explicando.png" alt="Como funciona" class="explaining">
+            <button class="next-race-btn">Next Race</button> 
+        </div>
+    
+        <div class="container">
+            <div class="next-race">
+                <p><span class="fi fi-us"></span>United States</p>
+                <h2>Formula-e Aramco Estados Unidos <br>Grand Prix 2024</h2>
+                <p>22 Jul 2024 - 25 Jul 2024</p>
+                <button>Aposte com amigos</button>
+                <img src="./src/assets/img/circuito.png" alt="circuito corrida" class="race-circuit">
+            </div>
+    
+            
+    
+            <div class="main-block">
+                <span class="fi fi-de flag-icon"></span>
+                <div class="main-content">
+                    <h2>UPCOMING</h2>
+                    <p>Formula - E in Japan, new information <br>coming soon</p>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+        
 </body>
-
 </html>
