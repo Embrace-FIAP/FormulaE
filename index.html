@@ -3,48 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
     <link rel="stylesheet" href="./src/css/home.css">
     <title>Formula E</title>
 </head>
 <body>
-    <nav>
-        <img src="./src/assets/img/img_logo_formulaE.png" alt="Logo formula-e" id="logo_header">
-
-        <ul>
-            <li><a href="#">Corridas</a></li>
-            <li><a href="#">Notícias</a></li>
-            <li><a href="#">Calendário</a></li>
-            <li><a href="#">Ingressos</a></li>
-        </ul>
-            
-        <img src="./src/assets/img/icone_lupa.png" alt="icone procurar" id="icone_lupa">
-
-        <button id="loginBtn">Login</button>
-        <button id="criar-contaBtn">Criar Conta</button>
-            
-        <img src="./src/assets/img/menu_header.png" alt="menu site" id="menu_header">
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./src/assets/img/img_logo_formulaE.png" alt="Logo formula-e" class="logo-image">
+            </div>
+        
+            <div class="header-content">
+                <ul>
+                    <li><a href="#">Corridas</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Calendário</a></li>
+                    <li><a href="#">Ingressos</a></li>
+                <hr/>
+                </ul>
+            </div>
+                   
+            <div class="header-buttons">
+                <a href="./src/pages/login.html"><button class="login-btn">Login</button></a>
+                <button class="signup-btn">Criar Conta</button>
+            </div>
+        </nav>
+    </header>
 
     <main>
-        <img src="./src/assets/img/explicando.png" alt="Como funciona" id="explicando">
-
-            <p id="nexTag">Next Race</p> 
-
-            <div class="location">
-                <img src="./src/assets/img/united-states 1.png" alt="país" id="país">
-                <p id="location">United States</p>
-            </div>
-            
-            <h2 id="titulo-descricao">Formula-e Aramco Estados Unidos Grand Prix 2024</h2>
-            <p id="data-descricao">22 Jul 2024 - 25 Jul 2024</p>
-            <button id="aposTag">Aposte com amigos</button>
-
-        <img src="./src/assets/img/circuito.png" alt="circuito corrida" id="img-circuito">
-
-        <img src="./src/assets/img/upcoming.png" alt="Há de vir por ai" id="upcoming">
-    </main>
+        <div class="main-image">
+            <img src="./src/assets/img/explicando.png" alt="Como funciona" class="explaining">
+            <button class="next-race-btn">Next Race</button> 
+        </div>
     
-
-    <script src="./src/js/script.js"></script>
+        <div class="container">
+            <div class="next-race">
+                <p><span class="fi fi-us"></span>United States</p>
+                <h2>Formula-e Aramco Estados Unidos <br>Grand Prix 2024</h2>
+                <p>22 Jul 2024 - 25 Jul 2024</p>
+                <button>Aposte com amigos</button>
+                <img src="./src/assets/img/circuito.png" alt="circuito corrida" class="race-circuit">
+            </div>
+    
+            
+    
+            <div class="main-block">
+                <span class="fi fi-de flag-icon"></span>
+                <div class="main-content">
+                    <h2>UPCOMING</h2>
+                    <p>Formula - E in Japan, new information <br>coming soon</p>
+                </div>
+            </div>
+        </div>
+    </main>
+        
 </body>
 </html>

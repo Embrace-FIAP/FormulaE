@@ -1,17 +1,152 @@
-@font-face {
-    font-family: 'signate';
-    src: url(../assets/fonts/signategrotesk-black.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto&family=Signika:wght@300..700&display=swap');
 
 :root {
     --color-one: #3535ED;
     --color-two: #002B6D;
+    --color-three: #C6C6C6;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Signika", sans-serif;
 }
 
+#background {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
 
+.background-img {
+    width: 400px;
+    height: 800px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+}
+
+.container {
+    display: flex;
+}
+
+.registration {
+    margin: 5rem 0 0 18rem;
+}
+
+#section-top-form {
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.top-form {
+    display: flex;
+}
+
+.top-form p{
+    color: var(--color-two);
+}
+
+#back {
+    color: black;
+    margin-right: 16.9rem;
+}
+
+.top-form i {
+    padding: 5px;
+}
+
+.top-form button {
+    color: var(--color-two);
+    background-color: white;
+    border-radius: 8px;
+    padding: 3px;
+    border: 3px solid var(--color-two);
+    transition: 0.5s;
+}
+
+.top-form button:hover {
+    color: white;
+    background-color: var(--color-two);
+}
+
+.content-form h1{
+    color: var(--color-two);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.content-form p {
+    color: var(--color-two);
+    margin: 15px 0;
+}
+
+.form-container i{
+    color: black;
+}
+
+#btn-sign-up{
+    border: 1px solid var(--color-three);
+    background-color: white;
+    color: var(--color-two);
+    padding: 3px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    gap: 50px;
+    font-weight: 500;
+}
+
+.division {
+    display: flex;
+    color: var(--color-three);
+    align-items: center;
+    text-align: center;
+}
+
+.line {
+    width: 50%;
+    height: 1px;
+    background-color: var(--color-three);
+}
+
+.division p {
+    font-size: 12px;
+    color: var(--color-three);
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 40px;
+    position: relative;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid var(--color-three);
+    border-radius: 10px;
+}
+
+.row button {
+    background-color: var(--color-one);
+    padding: 10px 0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
