@@ -13,10 +13,9 @@
     font-family: "Signika", sans-serif;
 }
 
-#background {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
+.background-img{
+    height: 800px;
+    width: 400px;
 }
 
 .background-img {
@@ -31,16 +30,11 @@
 }
 
 .container {
-    position: relative;
     display: flex;
-    align-items:end;
-    justify-content:center;
-    flex-direction: column;
-    bottom: 950px;
 }
 
 .registration {
-    margin: 0 250px 20px 0;
+    margin: 5rem 0 0 15rem;
 }
 
 #section-top-form {
