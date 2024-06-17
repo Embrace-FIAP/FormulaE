@@ -33,8 +33,22 @@
     </header>
 
     <main>
+        <div class="modal-container">
+            <div class="modal">
+                <div id="header-modal">
+                    <h2>Pontos Positivos Da Solução</h2>
+                    <p><i class="fa-solid fa-xmark" onclick="closeModal()"></i></p>
+                </div>
+                <p> <span>Melhor Aprendizado:</span> Trazendo uma proposta gameficada, garantimos um melhor aprendizado sobre as regras da Formula - E</p>
+                <p> <span>Compartilhamento Garantido:</span> Com o sistema de pontos através de compartilhamentos e interações com os amigos, garantimos o compartilhamento em cadeia</p>
+                <p> <span>Atribuição de Novos Públicos:</span> Através do jogo, esperamos atribuir um público mais jovem, que atualmente, conta como uma pouca porcentagem do público atual.</p>
+            </div>
+        </div>
+        
+
+
         <div class="main-image">
-            <img src="./src/assets/img/explicando.png" alt="Como funciona" class="explaining">
+            <img src="./src/assets/img/explicando.png" alt="Como funciona" class="explaining" onclick="openModal()">
             <button class="next-race-btn">Next Race</button> 
         </div>
     
@@ -59,5 +73,6 @@
         </div>
     </main>
         
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
