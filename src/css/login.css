@@ -19,7 +19,8 @@
 }
 
 .background-img {
-    object-fit: cover;
+    width: 400px;
+    height: 800px;
 }
 
 .logo {
@@ -35,6 +36,7 @@
 
 .registration {
     margin: 5rem 0 0 15rem;
+    margin: 5rem 0 0 18rem;
 }
 
 #section-top-form {

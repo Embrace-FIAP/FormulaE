@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'signate';
+    src: url(../assets/fonts/signategrotesk-black.ttf);
+}
+
+#separar{
+    margin-left: 250px;
+    margin-top: -460px;
+}   
+
+#logo_header{
+    margin-bottom: 50px;
+    margin-top: -1290px;
+}
+
+.navegacao-item{
+    font-family: 'signate';
+    display: flex;
+    position: relative; 
+    margin-bottom: 100px;
+    padding: 10px;
+    gap: 2rem; 
+}
+
+#select{
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    background-color: rgb(233, 234, 234);
+}
+
+/* #teste{
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    display: none;
+    background-color: rgb(233, 234, 234);
+} */
+
+.navegacao {
+    position: relative;
+    margin-top: -40px;
+}
+
+.highlight {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    background-color: rgb(233, 234, 234);
+    transition: top 0.3s ease-in-out;
+}
+
+.navegacao-item {
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+#more-png{
+    width: 40px;
+    height: 40px;
+}
+
+#home-png{
+    width: 40px;
+    height: 20px;
+}
+
+.friends{
+    border: 3px solid rgb(192, 191, 191);
+    border-radius: 10px;
+    width: 350px;
+    height: 350px; 
+}
+
+
+#gamer1{
+    width: 30px;
+    height: 30px;
+}
+
+#friends-header{
+    display: inline-flex;
+    gap: 1rem;
+
+}
+
+#img-friends-header{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#title-friends-header{
+    padding-top: -40px;
+}
+
+#online-header{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+#dot{
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position:static;
+}
+
+#invite{
+    width: 280px;
+    height: 33px; 
+    border-radius: 5px;
+    border: none; 
+    margin-left: 30px;
+    margin-top: -20px;
+    color: white;
+    background-color:#3535ED;
+    transition: background-color 0.7s;
+}
+
+#invite:hover{
+    width: 280px;
+    height: 33px; 
+    border-radius: 5px;
+    border: none; 
+    margin-left: 30px;
+    margin-top: -20px;
+    color: white;
+    background-color:#050576;
+    cursor: pointer;
+    
+}
+
+
+
+.friends{
+    margin-top: 50px;
+    margin-left: 330px;
+}
+
+#friend1{
+    display: flex; 
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+#friend1-name{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#posicao-friend1{
+    display: flex;
+    border: 1px solid #3535ED;
+    color: white;
+    background-color: #3535ED; 
+    border-radius: 4px;
+    height: 20px;
+    width: 10px;
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+#pilot-friend1{
+    display: flex;
+    position: relative; 
+    margin-left: -18px;
+    margin-top: 7px;
+    border: 3px solid #D4D4D4;
+    border-radius: 2px;
+    height: 16px;
+    width: 100px;
+    color: #002B6D;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#online-header{
+    width: 30px;
+    height: 30px;
+    border-radius: greenyellow; 
+
+}
+
+#nexTag {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border:none; 
+    background-color: #2E8EFE;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px; 
+    font-weight: bolder;
+
+}
+
+.location{
+    display:inline-flex;
+    gap: 4rem;
+    margin-left: 280px;
+    margin-top: 0%;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 330px ;
+    margin-top: -750px ;
+    height: 556px;
+    width: 1677px;
+    border-radius: 22px;
+}
+
+#titulo-location{
+    margin-left: 340px;
+    margin-top: 10px;
+    font-size: 42px;
+}
+
+#país{
+    width: 40px;
+    height: 40px;
+    margin-top: 70px;
+}
+
+#location{
+    margin-top: 80px;
+    margin-left: -50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: gray;
+    text-transform: uppercase;
+}
+
+#timer{
+    margin-top: 80px;
+    font-size: 18px;
+    margin-left: -20px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #1e1e1e, #737373, #737373, #000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: lowercase;
+}

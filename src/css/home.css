@@ -179,43 +179,12 @@ nav ul li a {
     box-shadow: #ebe8e8 0.625rem 0.625rem 0.625rem 0;
 }
 
-.race-circuit:hover {
-    transform: translateY(-0.625rem); 
-}
-
-.main-block {
-    display: flex;
-    padding: 1.25rem;
-    box-shadow: #ebe8e8 0.625rem 0.625rem 0.625rem 0;
-    background-color: #F4F4F4;
-    border-radius: 1.25rem;
-    width: 21.875rem;
-    cursor: pointer;
-    margin: 4rem 0 3rem 0;
-    transition: transform 0.5s ease, padding 0.5s ease;
-}
-
-.main-block:hover {
-    transform: translateY(-0.625rem); 
-}
-
-.main-block span {
-    margin: 1.5rem 1rem 0 0;
-    font-size: 1.5rem;
-}
-
-.main-content {
-    display: grid;
-}
-
-.main-content h2 {
-    color: var(--color-two);
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-
-.main-content p {
-    color: var(--color-five);
+#img-circuito{
+    display: flexbox;
+    position: relative;
+    justify-content: end;
+    margin-left: 850px;
+    margin-top: -300px;
 }
 
 @media (max-width: 320px) {

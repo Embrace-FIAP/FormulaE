@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/produto.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Informações da próxima corrida -->
+    <div class="location">
+        <p id="nexTag">Next Race</p> 
+        <img src="../assets/img/united-states 1.png" alt="país" id="país">
+        <p id="location">United States</p>
+        <p id="timer"> in 03h:29min:12seg </p> 
+    </div>
+
+    <h2 id="titulo-location">Formula-e Aramco Estados Unidos Grand Prix 2024</h2> 
+
+    <img src="../assets/img/img_logo_formulaE.png" alt="Logo formula-e" id="logo_header">
+    <div class="navegacao">
+        <!-- Logo da Formula E -->
+
+        <!-- Menu de navegação -->
+        <div class="navegacao">
+            <div class="highlight"></div> <!-- Contêiner para destacar o item selecionado -->
+            <!-- Item de navegação: Home -->
+            <div onclick="menuHover()" class="navegacao-item" id="home1">
+                <img src="../assets/img/home.png" id="home-pmg">
+                <p>Home</p>
+            </div>
+            <!-- Item de navegação: Placar de líderes -->
+            <div onclick="menuHover()" class="navegacao-item" id="leaders">
+                <img src="../assets/img/tem.png">
+                <p>Placar de líderes</p>
+            </div>
+            <!-- Item de navegação: Corridas -->
+            <div onclick="menuHover()" class="navegacao-item" id="races">
+                <img src="../assets/img/car.png">
+                <p>Corridas</p>
+            </div>
+            <!-- Item de navegação: Configurações -->
+            <div onclick="menuHover()" class="navegacao-item" id="settings">
+                <img src="../assets/img/more.png" id="more-png">
+                <p>Configurações</p>
+            </div>
+            <img src="../assets/img/Vector 15.png" id="separar">
+        </div>
+    </div>
+
+    <!-- Vídeo do YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BFu4WOw4spY?si=NLRJTGIPwmNOMbfu&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Seção de amigos -->
+    <div class="friends">
+        <div id="friends-header">
+            <!-- Ícone de amigos e título da seção -->
+            <img src="../assets/img/friend-icon.png" id="img-friends-header">
+            <h2 id="title-friends-header"> Na partida</h2>
+            <!-- Indicador de amigos online -->
+            <p class="position" id="dot"> </p>
+            <p id="online-header">3 onlines</p>
+        </div>
+
+        <!-- Amigo 1 -->
+        <div id="friend1">
+            <img src="../assets/img/gamer1.png" id="gamer1">
+            <h6 id="friend1-name">Henrique Botti</h6>
+            <p id="posicao-friend1">1</p>
+            <p id="pilot-friend1">Max Verstappen</p>
+        </div>
+
+        <!-- Amigo 2 -->
+        <div id="friend1">
+            <img src="../assets/img/man1.png" id="gamer1">
+            <h6 id="friend1-name">Nome Amigo</h6>
+            <p id="posicao-friend1">2</p>
+            <p id="pilot-friend1">Lewis Hamilton</p>
+        </div>
+
+        <!-- Amigo 3 -->
+        <div id="friend1">
+            <img src="../assets/img/boy1.png" id="gamer1">
+            <h6 id="friend1-name">Nome Amigo</h6>
+            <p id="posicao-friend1">3</p>
+            <p id="pilot-friend1">Sebastian Vettel</p>
+        </div>
+
+        <!-- Botão para convidar amigos -->
+            <button onclick="invite()" id="invite">Invite friends</button>
+      
+    </div>
+
+    
+
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="../js/produto.js"></script>
+</body>
+</html>
